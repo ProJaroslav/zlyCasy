@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,OAAO,CAAC;EACJ,WAAW,EAAE,IAAI;CACpB;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../style.scss",
+        "../../components/04-pages/_index.scss",
+        "../_config.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

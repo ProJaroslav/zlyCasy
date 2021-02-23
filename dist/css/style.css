@@ -1,0 +1,13 @@
+section {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.col-6 {
+  border: 1px solid black;
+  height: 50vh;
+}
+/*# sourceMappingURL=style.css.map */
