@@ -1,13 +1,109 @@
-section {
-  padding-top: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap");
+#navbar-brand_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 75px;
 }
 
-.container {
+.navbar-brand_title {
+  position: absolute;
+  top: 0.1rem;
+  z-index: 999;
+  font-family: "Ruslan Display";
+  left: 70px;
+  top: 25px;
+  font-size: 75px;
+  color: white;
+}
+
+.navbar-menu_link {
+  font-family: "Ruslan Display";
+  color: white;
+  font-size: 25px;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+  margin-right: 250px;
+  margin-bottom: 0px;
+}
+
+.navbar-menu li {
+  margin: 0 30px;
+}
+
+.rezervace {
+  position: fixed;
+  top: 75px;
+  right: 70px;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  background-color: black;
+}
+
+.btn-rezervace {
+  padding: 7px;
+  border: 2px solid white;
+  font-family: "Ruslan Display";
+  color: white;
+  background-color: black;
+}
+
+.navbar-line {
+  border: 1px solid white;
+  z-index: 995;
+  width: 100%;
+  margin: 0px;
+}
+
+.hero-title {
+  position: absolute;
+  top: 55rem;
+  left: 2rem;
+  font-family: "Ruslan Display";
+  color: white;
+}
+
+#hero-image {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 99.99%;
+}
+
+.navbar {
+  position: relative;
+  background-color: black;
+  padding: 0px;
+}
+
+.chess img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.chess .col-6,
+.chess .col-12 {
+  padding: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container,
+.row {
   max-width: 100%;
-}
-
-.col-6 {
-  border: 1px solid black;
-  height: 50vh;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
