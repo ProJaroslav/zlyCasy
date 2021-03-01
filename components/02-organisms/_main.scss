@@ -1,0 +1,16 @@
+@import "../00-atoms/text/title-presets";
+@import "../01-molecules/presets/preset";
+@import "../01-molecules/menu/menu-container";
+
+//footer
+@import "../01-molecules/footer/info-container";
+
+.presets {
+    background-color: black;
+    height: 100vh;
+}
+
+.menu {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}

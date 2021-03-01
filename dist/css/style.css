@@ -24,8 +24,6 @@
 }
 
 .navbar-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin-top: 2rem;
@@ -93,6 +91,48 @@
 .chess .col-6,
 .chess .col-12 {
   padding: 0;
+}
+
+.title-presets {
+  font-family: "Ruslan Display";
+  position: relative;
+  top: 2rem;
+  color: white;
+}
+
+.img-preset {
+  width: 50%;
+  position: relative;
+  top: 70px;
+}
+
+.preset-container {
+  margin-top: 150px;
+  border: 5px white solid;
+  border-radius: 1000px;
+  height: 50vh;
+}
+
+.menu-menu {
+  height: 45em;
+  width: 70em;
+  display: inline-block;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.menu {
+  background-color: white;
+}
+
+.presets {
+  background-color: black;
+  height: 100vh;
+}
+
+.menu {
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 * {
