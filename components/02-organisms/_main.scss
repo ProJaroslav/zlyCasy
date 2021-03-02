@@ -2,15 +2,25 @@
 @import "../01-molecules/presets/preset";
 @import "../01-molecules/menu/menu-container";
 
+//chess
+@import "../01-molecules/chess/chess-group";
+
 //footer
 @import "../01-molecules/footer/info-container";
 
+
+
 .presets {
     background-color: black;
-    height: 100vh;
+    height: 70vh;
 }
 
 .menu {
     padding-top: 25px;
     padding-bottom: 50px;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 25px;
 }
