@@ -1,7 +1,15 @@
 .hero-title {
     position: absolute;
-    top: 55rem;
-    left: 2rem;
+    top: 30rem;
+    left: 5rem;
+    font-size: 20px;
     font-family: "Ruslan Display";
     color: white;
+}
+
+@media (min-width: 1300px) {
+    .hero-title {
+        top: 54rem;
+        font-size: 40px;
+    }
 }

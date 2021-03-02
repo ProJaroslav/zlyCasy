@@ -6,6 +6,7 @@
     height: 50px;
     z-index: 999;
     background-color: black;
+    transform: scale(0);
 
 }
 
@@ -16,4 +17,14 @@
     color: white;
     background-color: black;
 
+
+}
+
+@media (min-width: 1200px) {
+    .rezervace {
+        transform: initial;
+        transition: initial;
+        margin: 0;
+        padding: 0;
+    }
 }
