@@ -1,0 +1,12 @@
+@import "../../00-atoms/images/chess-images";
+@import "../../00-atoms/images/chess_image-holder";
+@import "../../00-atoms/text/chess-holder2_para";
+@import "../../00-atoms/text/chess-holder2_text";
+
+.holder2 {
+    .btn-info {
+        padding: 15px 20px 15px 20px !important;
+        top: 15px;
+        left: 50px;
+    }
+}
